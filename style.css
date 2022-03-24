@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #3B4262;
+    color: #fff;
+}
+.container{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    margin-top: 10vh;
+}
+.title{
+    padding: 20px;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+}
+.title-content{
+    width: 200px;
+
+}
+.result-content{
+    width: 200px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    color: #3B4262;
+}
+.result-content span{
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.result-content input{
+    width: 100%;
+    border: none;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 30px;
+}
+.result-content input:focus{
+    outline: hidden;
+    border: none;
+}
+.result-container{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.your-score{
+    width: 100px;
+}
+.your-score span{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+}
+.comp-score{
+    width: 100px;
+}
+.comp-score span{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+}
+.title-span{
+    width: 250px;
+}
+.title-span span{
+    font-size: 25px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.spin-content{
+    width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.qogoz-content{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.qaychi-content{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tosh-content{
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    cursor: pointer;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #EB9F0E;
+}
+.div1 div{
+    background-color: #f3f3f3;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
